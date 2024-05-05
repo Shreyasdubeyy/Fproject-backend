@@ -4,7 +4,8 @@ import OrderController from "../controllers/OrderController";
 
 const router = express.Router();
 
-//router.get("/", jwtCheck, jwtParse, OrderController.getMyOrders);
+// order details
+router.get("/", jwtCheck, jwtParse, OrderController.getMyOrders);
 
 // post since we are creatng a session
 router.post(

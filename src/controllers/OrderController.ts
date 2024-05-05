@@ -182,7 +182,7 @@ const createSession = async (
 };
 
 export default {
-  //getMyOrders,
+  getMyOrders,
   createCheckoutSession,
   stripeWebhookHandler,
 };
